@@ -1,9 +1,9 @@
 -- create database Crime;
 use crime;
 
-select * from city;
-select * from date;
-select * from domain;
-select * from weapon;
-select * from crime;
-select * from factcrime;
+select * from dim_crime;
+select * from dim_location;
+select * from dim_victim;
+select * from dim_weapon;
+select * from fact_crime;
+
